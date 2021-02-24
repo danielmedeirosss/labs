@@ -1,0 +1,40 @@
+docker ps mostra container ativos
+flags
+-a mostra todos
+
+docker run roda o container 
+flags
+-it voce atrela  o terminal com o terminal do container
+-d é o modo detect não vai travar o terminal
+-P adiciona uma porta externa para acesso 
+-p mapear a porta do container (porta host):(porta container)
+--name (nomeda imagem)
+-e variavel de ambiente
+
+
+
+docker start  (id do container) para startar ele
+Flags
+-a attach -i interativo usando docker start -a -i voce acessa o container 
+docker stop (id) para parar
+-t time colocar o numero de segundos do docker
+
+
+
+para remover um container
+docker rm (nome da id)
+docker container prune ( remove todos os containers inativos)
+para remover imagem
+docker rmi (nome da imagem)
+
+docker port
+para ver a porta que está sendo usada
+
+docker dockersamples/static-site
+
+$() serve para agrupar um comando
+
+
+CASO ESTEJA USANDO O TOOLBOX e preicsa achar o ip da maquina 
+dockermachine ip
+

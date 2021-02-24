@@ -1,0 +1,35 @@
+para iniciar o git
+git init
+--bare(para indiciar um diretorio limpo)
+
+mostrar o que está sendo monitorado
+git status
+
+para monitorar arquivo
+git add (nome do arquivo)
+git add . (todos os arquivos)
+
+git commit -m "mensagem descritiva"
+
+git log
+para pegar os logs do git
+git log --oneline (para mostrar em uma linha)
+gitlog -p  (mostrar com mais detalhes) 
+
+git config --local
+user.name "nome"
+user.email(email)
+
+para ignorar um arquivo ou pasta
+para a pasta (o nome)/
+para arquivo o noem tem q ter gitignore
+
+git remote
+add (nome do local) (caminho)
+-v para ver o local 
+
+git clone (caminho) para clonar o caminho para o diretorio atual
+git clone (caminho) nome da pasta
+
+git pull (nome do local) (nome da query) para receber os arquivos
+git push (nome do local) (noma da query) para enviar os arquivos 
